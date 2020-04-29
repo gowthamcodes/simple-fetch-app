@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Fetch API Sandbox</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-5 mb-4">Fetch API Sandbox</h1>
+      <div class="d-flex">
+        <button class="btn btn-primary mr-3" id="getText">Get Text</button>
+        <button class="btn btn-success mr-3" id="getUsers">Get Json</button>
+        <button class="btn btn-warning mr-3" id="getPosts">Get API Data</button>
+      </div>
+      <hr />
+      <div id="output"></div>
+      <form id="addPost">
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="text"
+            id="title"
+            placeholder="Title"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            id="body"
+            placeholder="Content"
+          ></textarea>
+        </div>
+        <div>
+          <input class="btn btn-secondary" type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

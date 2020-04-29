@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Sachin Tendulkar",
+    "email": "sachintendulkar@email.com"
+  },
+  {
+    "id": 2,
+    "name": "Yuvaraj Singh",
+    "email": "yuvaraj.singh@email.com"
+  },
+  {
+    "id": 3,
+    "name": "Mahindra Singh Dhoni",
+    "email": "dhoni.ms@email.com"
+  }
+]
